@@ -27,10 +27,10 @@ To analyze spectral data, use the `--spectra` option followed by a comma-separat
 ```bash
 ./ChemMate --spectra 2000,3000
 ```
-To calculate the pH of a solution, use the `phcalc` subcommand followed by the `--h` or `--oh` option and the concentration:
+To calculate the pH of a solution, use the `phcalc` subcommand followed by the `--h_ion` or `--oh_ion` option and the concentration:
 
 ```bash
-./ChemMate phcalc --h 0.01
+./ChemMate phcalc --h_ion 0.01
 ```
 To calculate the Ksp of a compound, use the `kspcalc` subcommand followed by the `--ion1, --ion2, --stoich1, --stoich2` options and their respective values:
 
