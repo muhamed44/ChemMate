@@ -9,6 +9,7 @@ IRPeakMap initialize_ir_peak_data() {
     IRPeakMap ir_data;
 
     // Populate the map with common IR peaks and their typical wavenumber ranges (cm^-1)
+    // IR data is hardcoded, better to be imported from a data file and to increase IR peaks data to cover more cases
     ir_data["O-H stretch (alcohol)"] = {3200, 3650};
     ir_data["N-H stretch (amine)"] = {3200, 3500};
     ir_data["C=O stretch (aldehyde)"] = {1700, 1750};
